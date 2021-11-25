@@ -1,0 +1,80 @@
+body{
+
+    text-align: center;
+    font-family: 'Cooper Black', Bold, serif;
+    font-weight: bold;
+    color: #011627;
+    font-size: 20px;
+    background-image: linear-gradient(to bottom right, #f72585, #b5179e, #7209b7, #560bad, #480ca8, #3a0ca3, #3f37c9,
+    #4361ee, #4895ef, #4cc9f0, #0BAD87);
+    background-size: 200% 200%;
+    animation: degrade 10s ease-in-out infinite;
+}
+
+::-webkit-scrollbar{
+
+    width: 0;
+    
+}
+
+
+@keyframes degrade {
+    0% {
+        background-position: 0 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0 50%;
+    }
+}
+
+div h1{
+
+    font-family: 'Bebas Neue', cursive;
+    color: #d3f1fd;
+    font-size: 60px;
+}
+
+a{
+
+    font-family: 'Bebas Neue', cursive;
+    color: #d3f1fd;
+    font-size: 25px;
+}
+a:hover{
+
+    font-family: 'Bebas Neue', cursive;
+    color: #fc7216;
+    font-size: 25px;
+}
+
+h2{
+
+    color: #d3f1fd;
+    margin-top: 1em;
+    font-size: 30px;
+}
+.money{
+
+    width: 200px;
+}
+#gaara{
+
+    align-items: flex-end;
+    justify-content: center;
+    width: 250px;
+}
+
+.botao{
+
+    background-color: #FBC046;
+    margin: 20px auto;
+    padding: 8px 25px;
+    color: #100F0D;
+    border: solid  #100F0D;
+    border-radius: 15px;
+    font-size: 20px;
+}
+
